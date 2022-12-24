@@ -38,10 +38,24 @@ p{
 .section-m1{
   margin: 40px 0;
 }
+button.but{
+  font-size :14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color :#000;
+  background-color:#f8f5f4 ;
+  border-radius: 4px;
+  cursor: pointer;
+  border :none;
+  outline: none;
+  transition: 0.2s;
+
+}
+
 /* <<<<<<<<<<<<<<Header>>>>>>>>>>>>>> */
 
 .logo{
-  width: 60px;
+  width: 50px;
 }
 
 #header{
@@ -51,6 +65,10 @@ justify-content: space-between;
 padding: 20px 80px;
 background-color: #F8F5F4;
 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+z-index: 999;
+position: sticky;
+top: 0;
+left:0;
 }
 #navbar{
   display: flex;
@@ -71,28 +89,149 @@ position: relative;
 }
 #navbar li a:hover,
 #navbar li a.active{
-  color :rgba(145, 25, 127, 0.533);
+  color :rgba(145, 25, 127);
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
   content: "";
   width: 30%;
   height: 2px;
-  background: rgba(145, 25, 127, 0.533);
+  background: rgba(145, 25, 127);
   position: absolute;
   bottom: -4px;
   left: 20px;
 }
 /* <<<<<<<<<<<<<<Homepage>>>>>>>>>>>>>> */
 #homepage{
-  background-image:url("img/website\ background\ \(1\).jpg") ;
+  background-image:linear-gradient(to left , #e1dcde31 ,#c1b4af5d),
+  url("img/website\ background\ \(1\).jpg") ;
   height:90vh ;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 0;
+  background-position: top 45% right 0;
   padding: 0 80px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+}
+#homepage button {
+ background:#F8F5F4 ;
+ color :  #1b221f;
+ width: 450px;
+ height: 40px;
+ border: none;
+ font-weight: 600;
+ font-size:20px ;
+}
+/* --------------- */
+#prodect1{
+  text-align: center;
+}
+#prodect1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top:20px ;
+  flex-wrap: wrap;
+  }
+
+#prodect1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #e7cce7;
+  cursor :pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0,0, 0.02);
+  border-radius: 25px;
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+#prodect1 .pro:hover{
+  box-shadow: 20px 20px 30px rgba(0, 0,0, 0.06);
+}
+#prodect1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+#prodect1 .pro .des{
+  text-align: start;
+  padding: 10px 0;
+}
+#prodect1 .pro .des span {
+  color :#3f3f3f;
+  font-size :12px;
+}
+#prodect1 .pro .des h5{
+  padding: 7px;
+  color:#1a1a1a;
+  font-size: 14px;
+}
+#prodect1 .pro .des i{
+  font-size: 12px;
+  color:rgb(243, 181, 25);
+
+}
+#prodect1 .pro .des h4{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color :rgba(145, 25, 127 );
+}
+#prodect1 .pro .cart{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius:50px ;
+  background-color: #e8f6;
+  color: rgba(145, 25, 127 );
+  border: 1px solid rgba(145, 25, 127 );
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+/* -------------- */
+#Customize{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(img/Mirror_banner.png);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#Customize button:hover{
+  background: #e8f6;
+}
+/* ------------- */
+#socal{
+  width: 100%;
+  height: 25vh ;
+  background-color:#fff ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#socal .fa-instagram{
+  font-size: 70px;
+  color:rgb(0, 0, 0)  ;
+}
+#socal h2{
+  color:rgb(0, 0, 0)  ;
+}
+/* -------------- */
+#feedback{
+width: 100%;
+height: 80vh;
+background: url(img/image.png);
+background-size: cover;
+background-position: center;
+
+
 }
