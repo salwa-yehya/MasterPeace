@@ -11,31 +11,63 @@
  </head> 
 
   <body>
-    <section id="header">
-        <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+    <header>
+      <a href="#" ><img class="logo" src="img/logo.png" alt="logo"></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="customize.html">Customize</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">contact</a></li>
+    </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky" , window.scrollY > 0);
+})
+    </script>
+    <!-- <div class="navbar">
+      <nav>
+        <a href="#" ><img class="logo" src="img/logo.png" alt="logo"></a>
+        <ul >
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="customize.html">Customize</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">contact</a></li>
+      </ul>
+      <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
 
-    
-      <div>
+      </nav>
+    </div> -->
+   <!-- <header>
+    <a href="#" ><img class="logo" src="img/logo.png" alt="logo"></a>
+  
         <ul id="navbar">
-            <li> <a class="active" href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="customize.html">Customize</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="contact.html">contact</a></li>
-            <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-        </ul>
-      </div>
-   </section>
+          <li> <a class="active" href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="customize.html">Customize</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+      </ul>
+   </header>
 
-    <section id="homepage">
+    <section id="MainHome">
+      <div id="header">
+      
+        
+       
+      <div id="homepage" >
       <p>Mirror shop</p>
-       <h1 class="font">Mirror Reflection</h1><br>
+       <h1 class="font">Mirror Reflection</h1>
        <h3 id="para">Only your  reflection doesn't lie.<br>
-        Find peace with our exotic range of mirrors !</h3>
-        <br><br>
-        <button>shop</button>
-    </section>
-
+        Find peace with our exotic range of mirrors !</h3><br>
+         <button>shop</button>
+       </div>
+</section> -->
     <section id="prodect1" class="section-p1">
        <h2>Featured Products</h2>
        <div class="pro-container">
@@ -186,16 +218,11 @@
       </div>
     </section>
     
-    <section >
-      <div class="slider-frame">
-        <div class="slide-images">
-           <div class="container">
-      <p id="feedback">lkjhgfdxz</p>
-           </div>
+    
 
-      </div>
-      </div>
-    </section>
+ 
+
+
 
 
      <script src="script.js"></script>
