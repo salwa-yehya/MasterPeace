@@ -5,32 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reflection</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/footer.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
  </head> 
 
   <body>
     <header>
-      <a href="#"><img class="logo" src="img/logo.png" alt="logo">asas</a>
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="shop.html">Shop</a></li>
+      <!-- <div class="flex"> -->
+      <!-- <a href="#"><img class="logo" src="img/logo.png" alt="logo"></a> -->
+        <div class="search">
+      <span class="icon">
+        <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+        <!-- <a href=""><i class="fa-solid fa-user user"></i></a> -->
+      </span> 
+       </div>
+
+
+       <div class="group">
+      <ul class="navigation">
+
+        <li><a href="shop.html">Mirror</a></li>
         <li><a href="customize.html">Customize</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">contact</a></li>
-        <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                
+        <a class="logo" href="index.html">Reflection</a>
+
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
+     </div>
+  
+
+     <div class="search">
+      <span class="icon">
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        <!-- <a href=""><i class="fa-solid fa-user user"></i></a> -->
+      </span> 
+       </div>
+       
+       <i class="fa-solid fa-bars menuToggle"></i>
+       
+          <!-- <div class="searchBox">
+            <input type="text" placeholder="Search here . . .">
+          </div> -->
+   
     
+    
+  
+
 
     </header>
-    <section class="banner"></section>
-    <script type="text/javascript">
-      window.addEventListener("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("sticky" , window.scrollY > 0);
-})
-    </script>
+    <div class="Home_img">
+    </div>
+    <section class="banner">
+       
+      <div class="container">
+       
+          
+             <div class="banner_desc"> 
+              <h1 class="title">Mirror Reflection</h1>
+              
+              <p class="desc">Only your  reflection doesn't lie.<br>
+              Find peace with our exotic range of mirrors !</p>
+              <br>
+              <a href="#" ><button>shop</button></a>
+              <!-- <a href="#" ><button>Customize</button></a> -->
+               </div>
+        
+      </div>
+    </section>
+    
+    
     <!-- <div class="navbar">
       <nav>
         <a href="#" ><img class="logo" src="img/logo.png" alt="logo"></a>
@@ -77,9 +127,10 @@
         <div class="pro">
           <img src="img/M4.jpg" alt="mirror">
           <div class="des">
-           <span>Metal mirror</span><br>
-           <span>60*60 cm</span>
+           <!-- <span>Metal mirror</span><br> -->
+           
            <h5>Circle mirror</h5>
+           <span>60*60 cm</span>
            <div class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -94,9 +145,8 @@
         <div class="pro">
           <img src="img/M1.jpg" alt="mirror">
           <div class="des">
-            <span>Metal mirror</span><br>
-            <span>90*60 cm</span>
            <h5>mirror</h5>
+           <span>90*60 cm</span>
            <div class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -107,92 +157,13 @@
            <h4>50 JOD</h4>
           </div>
           <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> <div class="pro">
-          <img src="img/M10.jpg" alt="mirror">
+        </div> 
+        
+        <div class="pro">
+          <img src="img/M1.jpg" alt="mirror">
           <div class="des">
-           <span>Designer Mirrors</span><br>
-           <span>200*100 cm</span>
-           <h5>Designer Mirrors</h5>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>100 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> <div class="pro">
-          <img src="img/M6.jpg" alt="mirror">
-          <div class="des">
-           <span>Metal mirror</span><br>
-           <span>40 *20 cm</span>
-           <h5>Small Metal Mirror</h5>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>20 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> <div class="pro">
-          <img src="img/M11.jpg" alt="mirror">
-          <div class="des">
-           <span>Metal mirror</span><br>
-           <span>50* 50 cm</span>
-           <h5>Circle Metal  Mirror </h5>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>30 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> <div class="pro">
-          <img src="img/M3.jpg" alt="mirror">
-          <div class="des">
-           <span>Metal mirror</span><br>
-           <span>180 *80 cm </span>
-           <h5>Big Metal mirror</h5>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>80 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> <div class="pro">
-          <img src="img/M20.jpg" alt="mirror">
-          <div class="des">
-           <span>Metal mirror</span><br>
-           <span>100*50 cm</span>
-           <h5>squre Metal mirror</h5>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>40 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> <div class="pro">
-          <img src="img/M8.jpg" alt="mirror">
-          <div class="des">
-           <span>Metal mirror</span><br>
-           <span>160* 60 cm</span>
-           <h5>Big Metal Mirror</h5>
+           <h5>mirror</h5>
+           <span>90*60 cm</span>
            <div class="star">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -203,7 +174,91 @@
            <h4>50 JOD</h4>
           </div>
           <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div>
+        </div> 
+        
+        <div class="pro">
+          <img src="img/M1.jpg" alt="mirror">
+          <div class="des">
+           <h5>mirror</h5>
+           <span>90*60 cm</span>
+           <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </div>
+           <h4>50 JOD</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div> 
+
+         
+        <div class="pro">
+          <img src="img/M1.jpg" alt="mirror">
+          <div class="des">
+           <h5>mirror</h5>
+           <span>90*60 cm</span>
+           <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </div>
+           <h4>50 JOD</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div> 
+        
+        <div class="pro">
+          <img src="img/M1.jpg" alt="mirror">
+          <div class="des">
+           <h5>mirror</h5>
+           <span>90*60 cm</span>
+           <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </div>
+           <h4>50 JOD</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div> 
+        <div class="pro">
+          <img src="img/M1.jpg" alt="mirror">
+          <div class="des">
+           <h5>mirror</h5>
+           <span>90*60 cm</span>
+           <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </div>
+           <h4>50 JOD</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div> 
+        <div class="pro">
+          <img src="img/M1.jpg" alt="mirror">
+          <div class="des">
+           <h5>mirror</h5>
+           <span>90*60 cm</span>
+           <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </div>
+           <h4>50 JOD</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div> 
        </div>
     </section>
 
@@ -215,19 +270,32 @@
     </section>
      
     <section id="socal">
-      <div> 
-        <a href="https://www.instagram.com/mirrors_design6/?next=%2F"><i class="fa-brands fa-instagram"></i></a><br><br>
-        <h2 class="font">follow us</h2>
+      <div class="img_follow"> 
+        <img src="./img/follow-removebg-preview.png" alt="" width="420px" height="180px">
+        <!-- <a href="https://www.instagram.com/mirrors_design6/?next=%2F"><i class="fa-brands fa-instagram"></i></a><br><br> -->
+        <!-- <h2 class="font">follow us</h2> -->
       </div>
     </section>
     
-    
+    <!-- <script type="text/javascript">
+      window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky" , window.scrollY > 0);
+    })
+    </script> -->
 
- 
-
-
-
-
+       <script>
+        let navigation = document.querySelector('.navigation');
+        let menuToggle = document.querySelector('.menuToggle');
+        let header = document.querySelector('header');
+          
+       
+        menuToggle.onclick =function(){
+          header.classList.toggle('open');
+        }
+       </script>
      <script src="script.js"></script>
+
+     <?php include('./component/footer.php') ?>
 </body>
 </html>
