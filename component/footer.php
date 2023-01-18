@@ -1,3 +1,4 @@
+
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
@@ -95,7 +96,6 @@ ul{
 
 
 </style>
-  <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>

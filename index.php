@@ -128,12 +128,12 @@
     <section id="prodect1" class="section-p1">
       <div class="pro_title_flex" >
         <div calss="section-m1 ">
-       <h2 class="pro_title"> Our Designs </h2>
+       <h2 class="pro_title "> Our Designs </h2>
        <p class="pro_p">Our work portrays the eternal quality of carefully curated<br> designs 
         which blend traditional craftsmanship techniques <br>with ethereal aesthetics, bringing to 
         life for home.</p>
         </div>
-        <div calss="section-m1 "></div>
+        <div class="section-m1 "></div>
         </div>
        <div class="pro-container">
         <div class="pro">
@@ -212,8 +212,25 @@
        </div>
     </section>
  
-    <section id="Category" class="section-p1">
-
+    <section id="Category" >
+    <div class="pro_title_flex " >
+        <div calss="section-m1 ">
+       <h2 class="pro_title ">Mirrors Category </h2>
+       <p class="pro_p">Our work portrays the eternal quality of carefully curated<br> designs 
+        which blend traditional craftsmanship techniques <br>with ethereal aesthetics, bringing to 
+        life for home.</p>
+        </div>
+        <div class="section-m1 "></div>
+        </div>
+     <div class="image-flex" >
+      <div class="image-1"></div> 
+      <div class="image-2"></div> 
+      <div class="image-3"></div> 
+      <div class="image-4"></div> 
+      <div class="image-5"></div> 
+     
+     
+   </div>
     </section>
 
 

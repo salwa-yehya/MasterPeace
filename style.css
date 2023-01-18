@@ -26,7 +26,7 @@ h1{
   font-weight: 400;
 }
 h2{
-  padding-top: 40px;
+  padding-top: 30px;
   font-size: 40px;
   line-height: 54px;
   color: #333;
@@ -178,9 +178,8 @@ cursor: pointer;
 }
 .fa-solid{
     color: #000;
-    font-size: 16px;
-    background-color: #ffffff;
-    border-width: 0px;
+    font-size: 17px;
+     border-width: 0px;
 }
 .fa-solid:hover{
   color: #BD4B4B;
@@ -341,8 +340,8 @@ cursor: pointer;
 /* #homepage */
  button {
   margin-top: 105px;
- background:#EAEFF2   ;
- color :  #000;
+ background: none   ;
+ color :  #EAEFF2;
  width: 160px;
  height: 40px;
  border: 2px solid #EAEFF2;
@@ -371,10 +370,8 @@ margin: 50px;
 border: 2px solid #BD4B4B;
 background-color: #BD4B4B;
 color: #fff;
-
 }
-
-/* --------------- */
+/* ________________Product__________________ */
 #prodect1{
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -486,7 +483,70 @@ color: #fff;
   font-size: 25px;
   padding-right: 8px;
 }
-/* -------------- */
+/* _____________________Category______________________ */
+#Category{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Vanitas", Sans-serif;
+  text-align: left;
+  background:#Fff;
+}
+.image-flex{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 1rem ;
+
+}
+
+.image-1{
+  background-image: url(./img/Wandspiegel\ Sasheer.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top ;
+  flex-basis: 40%;
+  height: 450px;
+  z-index: 0;
+}
+.image-2{
+  flex-basis: 40%;
+  height: 450px;
+ background-image:url(./img/My\ project-1.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.image-3{
+  background-image: url(./img/cat2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top ;
+  flex-basis: 25%;
+  height: 400px;
+}
+.image-4{
+  background-image: url(./img/Federico\ Mirror\ \(1\).jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top ;
+  flex-basis: 29%;
+  height: 400px;
+}
+.image-5{
+  flex-basis: 25%;
+  height: 250px;
+}
+
+@media screen and (max-width: 10240px) {
+  .image_grid {
+    --num-cols :2;
+    --row-height :200px;
+  }
+}
+
+
+/* _____________________Customize______________________ */
+
 #Customize{
   display: flex;
   flex-direction: column;
