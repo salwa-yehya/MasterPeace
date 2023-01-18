@@ -29,10 +29,10 @@
        <div class="group">
       <ul class="navigation">
 
-        <li><a href="shop.html">Mirror</a></li>
+        <li><a href="shop.html">Mirrors</a></li>
         <li><a href="customize.html">Customize</a></li>
                 
-        <a class="logo" href="index.html">Reflection</a>
+      <a class="logo" href="index.html"><img src="./img/Butterlogo-removebg-preview.png" alt="" width="80px"></a>
 
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -60,7 +60,11 @@
 
 
     </header>
+
     <div class="Home_img">
+      <div class="Home_opa">
+
+      </div>
     </div>
     <section class="banner">
        
@@ -122,14 +126,22 @@
        </div>
 </section> -->
     <section id="prodect1" class="section-p1">
-       <h2>Featured Products</h2>
+      <div class="pro_title_flex" >
+        <div calss="section-m1 ">
+       <h2 class="pro_title"> Our Designs </h2>
+       <p class="pro_p">Our work portrays the eternal quality of carefully curated<br> designs 
+        which blend traditional craftsmanship techniques <br>with ethereal aesthetics, bringing to 
+        life for home.</p>
+        </div>
+        <div calss="section-m1 "></div>
+        </div>
        <div class="pro-container">
         <div class="pro">
           <img src="img/M4.jpg" alt="mirror">
           <div class="des">
            <!-- <span>Metal mirror</span><br> -->
            
-           <h5>Circle mirror</h5>
+           <h5 >Circle mirror</h5>
            <span>60*60 cm</span>
            <div class="star">
             <i class="fas fa-star"></i>
@@ -158,75 +170,9 @@
           </div>
           <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div> 
-        
-        <div class="pro">
-          <img src="img/M1.jpg" alt="mirror">
-          <div class="des">
-           <h5>mirror</h5>
-           <span>90*60 cm</span>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>50 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> 
-        
-        <div class="pro">
-          <img src="img/M1.jpg" alt="mirror">
-          <div class="des">
-           <h5>mirror</h5>
-           <span>90*60 cm</span>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>50 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> 
-
+  
          
-        <div class="pro">
-          <img src="img/M1.jpg" alt="mirror">
-          <div class="des">
-           <h5>mirror</h5>
-           <span>90*60 cm</span>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>50 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> 
-        
-        <div class="pro">
-          <img src="img/M1.jpg" alt="mirror">
-          <div class="des">
-           <h5>mirror</h5>
-           <span>90*60 cm</span>
-           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-           </div>
-           <h4>50 JOD</h4>
-          </div>
-          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        </div> 
+     
         <div class="pro">
           <img src="img/M1.jpg" alt="mirror">
           <div class="des">
@@ -260,7 +206,16 @@
           <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
         </div> 
        </div>
+
+       <div class="more_product">
+       <div><a href="#"><button >more product</button></a></div>
+       </div>
     </section>
+ 
+    <section id="Category" class="section-p1">
+
+    </section>
+
 
     <section id="Customize" class="section-m1">
       <h2 class="font">Customize<br>
