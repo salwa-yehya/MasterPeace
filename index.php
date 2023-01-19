@@ -66,6 +66,7 @@
 
       </div>
     </div>
+
     <section class="banner">
        
       <div class="container">
@@ -84,47 +85,6 @@
       </div>
     </section>
     
-    
-    <!-- <div class="navbar">
-      <nav>
-        <a href="#" ><img class="logo" src="img/logo.png" alt="logo"></a>
-        <ul >
-          <li><a href="index.html">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="customize.html">Customize</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html">contact</a></li>
-      </ul>
-      <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
-
-      </nav>
-    </div> -->
-   <!-- <header>
-    <a href="#" ><img class="logo" src="img/logo.png" alt="logo"></a>
-  
-        <ul id="navbar">
-          <li> <a class="active" href="index.html">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="customize.html">Customize</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html">contact</a></li>
-          <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-      </ul>
-   </header>
-
-    <section id="MainHome">
-      <div id="header">
-      
-        
-       
-      <div id="homepage" >
-      <p>Mirror shop</p>
-       <h1 class="font">Mirror Reflection</h1>
-       <h3 id="para">Only your  reflection doesn't lie.<br>
-        Find peace with our exotic range of mirrors !</h3><br>
-         <button>shop</button>
-       </div>
-</section> -->
     <section id="prodect1" class="section-p1">
       <div class="pro_title_flex" >
         <div calss="section-m1 ">
@@ -213,7 +173,7 @@
     </section>
  
     <section id="Category" >
-    <div class="pro_title_flex " >
+    <div class="pro_title_flex" >
         <div calss="section-m1 ">
        <h2 class="pro_title ">Mirrors Category </h2>
        <p class="pro_p">Our work portrays the eternal quality of carefully curated<br> designs 
@@ -222,22 +182,53 @@
         </div>
         <div class="section-m1 "></div>
         </div>
-     <div class="image-flex" >
-      <div class="image-1"></div> 
-      <div class="image-2"></div> 
-      <div class="image-3"></div> 
-      <div class="image-4"></div> 
-      <div class="image-5"></div> 
+        <br>
+      
+      <div class="image-flex">
+          <div class="image-1">
+             <div class="category-1 ">
+             <h2 class="category_title">Circle Mirrors</h2>
+             <a href="#" ><button class="button-category">shop</button></a>
+             </div>
+          </div>
+      
+          <div class="image-2">
+              <div class="category-2 ">
+              <h2 class="category_title">Designer Mirrors</h2>
+              <a href="#" ><button class="button-category">shop</button></a>
+              </div> 
+         </div>
+
+         <div class="image-3">
+             <div class="category-3 ">
+             <h2 class="category_title1">Floor Mirrors</h2>
+             <a href="#" ><button class="button-category1">shop</button></a> 
+             </div> 
+         </div> 
+
+        <div class="image-4">
+            <div class="category-4 ">
+            <h2 class="category_title1">Led Mirrors</h2>
+            <a href="#" ><button class="button-category1">shop</button></a>
+            </div>  
+        </div> 
+    
+        <div class="image-5">
+           <div class="category-5 ">
+            <h2 class="category_title1">Mirrors sets</h2>
+            <a href="#" ><button class="button-category1">shop</button></a>
+            </div> 
+        </div> 
      
-     
+     </div> 
    </div>
     </section>
 
 
     <section id="Customize" class="section-m1">
-      <h2 class="font">Customize<br>
+      <h2 class="category_title">Customize<br>
         your Mirror</h2><br><br>
-        <button class="but">Customize Now </button>
+        <button >Customize Now </button>
         
     </section>
      
