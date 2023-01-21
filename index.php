@@ -19,24 +19,73 @@
 
 <body>
   <header>
-    <!-- <div class="flex"> -->
-    <!-- <a href="#"><img class="logo" src="img/logo.png" alt="logo"></a> -->
-    <div class="search">
-      <span class="icon">
-        <i class="fa-solid fa-magnifying-glass searchBtn"></i>
-        <!-- <i class="fa-solid fa-xmark"></i> -->
-        <!-- <a href=""><i class="fa-solid fa-user user"></i></a> -->
-      </span>
+    <div class="search">       
+       <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+   </div>
+
+    <div class="group1">
+      <ul>
+        
+      <li><a href="shop.php">Mirrors</a></li>
+        <li><a href="customize.html">Customize</a></li>
+
+      </ul>
     </div>
 
+    <div><a class="logo" href="index.php"><img src="./img/Butterlogo-removebg-preview.png" alt="" 
+      width="80px"></a></div>
 
-    <div class="group">
+    <div class="group2">
+      <ul>
+      <li><a href="about.php">About </a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-cart">
+    <a href="cart.html"><i class="fa-solid fa-cart-shopping "></i></a>
+    </div>
+    </header>
+                      <!-- _____________ -->
+    <!-- <header class="media">
+    <div class="search">       
+       <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+   </div>
+
+   
+
+    <div><a class="logo" href="index.html"><img src="./img/Butterlogo-removebg-preview.png" alt="" 
+      width="80px"></a></div> 
+       <div class="nav-cart">
+    <a href="cart.html"><i class="fa-solid fa-cart-shopping "></i></a> 
+  </div>
+
+       <div class="group">
+        <ul>  
+          <li><a href="shop.html">Mirrors</a></li>
+          <li><a href="customize.html">Customize</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+  
+   
+    </header> -->
+    <!-- <div >
+      <span class="icon">
+        <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+      </span>
+    </div> -->
+
+
+    <!-- <div >
       <ul class="navigation">
+        <a class="logo" href="index.html"><img src="./img/Butterlogo-removebg-preview.png" alt="" width="80px"></a>
 
         <li><a href="shop.html">Mirrors</a></li>
         <li><a href="customize.html">Customize</a></li>
 
-        <a class="logo" href="index.html"><img src="./img/Butterlogo-removebg-preview.png" alt="" width="80px"></a>
 
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -46,24 +95,18 @@
 
     <div class="search">
       <span class="icon">
-        <!-- <i class="fa-solid fa-xmark"></i> -->
         <a href="cart.html"><i class="fa-solid fa-cart-shopping cart"></i></a>
-        <!-- <a href=""><i class="fa-solid fa-user user"></i></a> -->
       </span>
-    </div>
+    </div> -->
 
     <i class="fa-solid fa-bars menuToggle"></i>
 
-    <!-- <div class="searchBox">
-            <input type="text" placeholder="Search here . . .">
-          </div> -->
 
 
 
 
 
 
-  </header>
 
   <div class="Home_img">
     <div class="Home_opa">
@@ -159,13 +202,11 @@
         <span class="Ribbon-Shape"></span>
         <img src="img/M4.jpg" alt="mirror">
         <div class="des">
-          <!-- <span>Metal mirror</span><br> -->
-
           <h5>Circle mirror</h5>
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="btn" name="addTOcart">
-
+          
+          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
         </div>
       </div>
       <div class="pro">
@@ -175,7 +216,7 @@
           <span>90*60 cm</span>
 
           <h4>50 JOD</h4>
-          <input type="submit" value="add to cart" class="btn" name="addTOcart">
+          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
 
         </div>
       </div>
@@ -185,7 +226,7 @@
           <h5>mirror</h5>
           <span>90*60 cm</span>
           <h4>50 JOD</h4>
-          <input type="submit" value="add to cart" class="btn" name="addTOcart">
+          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
 
         </div>
       </div>
@@ -195,7 +236,7 @@
           <h5>mirror</h5>
           <span>90*60 cm</span>
           <h4>50 JOD</h4>
-          <input type="submit" value="add to cart" class="btn" name="addTOcart">
+          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
         </div>
       </div>
     </div>
@@ -226,7 +267,7 @@
           <h5>Circle mirror</h5>
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="btn" name="addTOcart">
+          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
         </div>
         <!-- <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a> -->
       </div>
@@ -240,7 +281,7 @@
           <span>60*60 cm</span>
 
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="btn" name="addTOcart">
+          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
 
         </div>
       </div>
@@ -253,7 +294,7 @@
           <h5>Circle mirror</h5>
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="btn" name="addTOcart">
+          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
 
         </div>
       </div>
@@ -266,7 +307,7 @@
           <h5>Circle mirror</h5>
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="btn" name="addTOcart">
+          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
 
         </div>
       </div>
@@ -328,8 +369,8 @@
           </div>
         </div>
       </div>
-    <div class="swiper-button-next nav-btn"></div>
-    <div class="swiper-button-prev nav-btn"></div>
+    <div class="swiper-button-next nav-Sbtn"></div>
+    <div class="swiper-button-prev nav-Sbtn"></div>
     <div class="swiper-pagination "></div>
     </div>
  
