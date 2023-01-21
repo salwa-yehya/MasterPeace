@@ -3,7 +3,8 @@
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
+	font-family:  'object-fit: contain, object-position: 50% 50%';
+
 }
 *{
 	margin:0;
@@ -17,6 +18,7 @@ body{
 .row{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 ul{
 	list-style: none;
@@ -121,10 +123,10 @@ ul{
   	 				<li><a href="#">shipping</a></li>
   	 				<li><a href="#">returns</a></li>
   	 				<li><a href="#">order status</a></li>
-  	 				<li><a href="#">payment options</a></li>
+  	 				<!-- <li><a href="#">payment options</a></li> -->
   	 			</ul>
   	 		</div>
-  	 		<div class="footer-col">
+  	 		<!-- <div class="footer-col">
   	 			<h4>online shop</h4>
   	 			<ul>
   	 				<li><a href="#">watch</a></li>
@@ -132,7 +134,7 @@ ul{
   	 				<li><a href="#">shoes</a></li>
   	 				<li><a href="#">dress</a></li>
   	 			</ul>
-  	 		</div>
+  	 		</div> -->
   	 		<div class="footer-col">
   	 			<h4>follow us</h4>
   	 			<div class="social-links">
