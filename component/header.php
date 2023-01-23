@@ -13,7 +13,7 @@
       <ul>
         
       <li><a href="shop.php">Mirrors</a></li>
-        <li><a href="customize.html">Customize</a></li>
+        <li><a href="customize.php">Customize</a></li>
 
       </ul>
     </div>

@@ -19,15 +19,17 @@
 
 <body>
   <header>
-    <div class="search">       
+
+
+     <div class="search">       
        <i class="fa-solid fa-magnifying-glass searchBtn"></i>
-   </div>
+   </div> 
 
     <div class="group1">
       <ul>
         
       <li><a href="shop.php">Mirrors</a></li>
-        <li><a href="customize.html">Customize</a></li>
+        <li><a href="customize.php">Customize</a></li>
 
       </ul>
     </div>
@@ -137,9 +139,7 @@
     <div class="pro_title_flex">
       <div calss="section-m1 ">
         <h2 class="pro_title ">Mirrors Category </h2>
-        <p class="pro_p">Our work portrays the eternal quality of carefully curated<br> designs
-          which blend traditional craftsmanship techniques <br>with ethereal aesthetics, bringing to
-          life for home.</p>
+        <p class="pro_p">Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
       </div>
       <div class="section-m1 "></div>
     </div>
@@ -189,9 +189,7 @@
     <div class="pro_title_flex">
       <div calss="section-m1 ">
         <h2 class="pro_title "> Our Designs </h2>
-        <p class="pro_p">Our work portrays the eternal quality of carefully curated<br> designs
-          which blend traditional craftsmanship techniques <br>with ethereal aesthetics, bringing to
-          life for home.</p>
+        <p class="pro_p">Lorem ipsum dolor sit amet consectetur.</p>
       </div>
       <div class="section-m1 "></div>
     </div>
@@ -206,7 +204,6 @@
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
           
-          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
         </div>
       </div>
       <div class="pro">
@@ -216,7 +213,7 @@
           <span>90*60 cm</span>
 
           <h4>50 JOD</h4>
-          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
+        
 
         </div>
       </div>
@@ -226,7 +223,7 @@
           <h5>mirror</h5>
           <span>90*60 cm</span>
           <h4>50 JOD</h4>
-          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
+          
 
         </div>
       </div>
@@ -236,7 +233,7 @@
           <h5>mirror</h5>
           <span>90*60 cm</span>
           <h4>50 JOD</h4>
-          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
+       
         </div>
       </div>
     </div>
@@ -267,7 +264,7 @@
           <h5>Circle mirror</h5>
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
+          
         </div>
         <!-- <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a> -->
       </div>
@@ -281,7 +278,6 @@
           <span>60*60 cm</span>
 
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
 
         </div>
       </div>
@@ -294,7 +290,6 @@
           <h5>Circle mirror</h5>
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
 
         </div>
       </div>
@@ -307,7 +302,6 @@
           <h5>Circle mirror</h5>
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
-          <input type="submit" value="add to cart" class="Sbtn" name="addTOcart">
 
         </div>
       </div>
@@ -330,7 +324,7 @@
   <section id="prodect1" class="section-p1 feedback">
     <div class="pro_title_flex">
       <div calss="section-m1 ">
-        <h2 class="pro_title ">Testimonials</h2>
+        <h2 class="pro_title ">Feedback</h2>
         <p class="pro_p">What Customers says ?</p>
       </div>
       <div class="section-m1 "></div>
@@ -427,6 +421,9 @@
   <script src="./js/swiper-bundle.min.js"></script>
   <!-- ____Lava Script___ -->
   <script src="js/script.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
   <?php include('./component/footer.php') ?>
 </body>
