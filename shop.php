@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/shop.css">
   <title>shop</title>
   <style>
 
@@ -16,7 +17,9 @@
 
 <body>
   <?php include('./component/header.php') ?>
-
+  <div class="pages-title">
+        <h1> Shop</h1>
+    </div>
   <section id="prodect1" class="section-p1">
     <div class="pro-container">
       <div class="pro" onclick="window.location.href='sproduct.php';">

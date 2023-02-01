@@ -10,14 +10,30 @@
 
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+   <!-- ======= nav bar ======= -->
   <header>
 
 
@@ -40,7 +56,7 @@
     <div class="group2">
       <ul>
       <li><a href="about.php">About </a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
     </div>
 
@@ -116,9 +132,9 @@
     </div>
   </div>
 
-  <section class="banner">
+  <section class="banner" >
 
-    <div class="container">
+    <div class="containers">
 
 
       <div class="banner_desc">
@@ -135,7 +151,7 @@
   </section>
 
 
-  <section id="Category" class="section-p2">
+  <section id="Category" class="section-p2" >
     <div class="pro_title_flex">
       <div calss="section-m1 ">
         <h2 class="pro_title ">Mirrors Category </h2>
@@ -285,8 +301,6 @@
         <span class="Ribbon-Shape"></span>
         <img src="img/M4.jpg" alt="mirror">
         <div class="des">
-          <!-- <span>Metal mirror</span><br> -->
-
           <h5>Circle mirror</h5>
           <span>60*60 cm</span>
           <h4>35 JOD</h4>
@@ -405,7 +419,7 @@
 
 
 
-
+  <!-- <div id="preloader"></div> -->
 
   <script>
     let navigation = document.querySelector('.navigation');
